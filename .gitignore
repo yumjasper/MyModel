@@ -1,0 +1,30 @@
+# Local Python/CUDA environment
+.venv/
+__pycache__/
+*.py[cod]
+
+# Third-party source checkouts (versions are recorded in deployment-manifest.json)
+ComfyUI/
+validation-tools/
+workflows/
+
+# Model weights and generated media
+*.gguf
+*.safetensors
+*.ckpt
+*.pt
+*.pth
+*.bin
+test-output/
+output/
+
+# Runtime data
+*.log
+*.tmp
+.cache/
+
+# Editor and OS files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
